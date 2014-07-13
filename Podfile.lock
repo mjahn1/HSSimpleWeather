@@ -1,0 +1,26 @@
+PODS:
+  - AFNetworking (1.3.4)
+  - HSCore (0.0.1):
+    - JLRoutes (~> 1.5)
+  - JLRoutes (1.5.1)
+  - NSString-UrlEncode (1.1.0)
+  - OpenWeatherMapAPI (0.0.5):
+    - AFNetworking (~> 1.3.1)
+
+DEPENDENCIES:
+  - HSCore (from `~/dev/src/talk/HSCore`)
+  - NSString-UrlEncode (~> 1.1)
+  - OpenWeatherMapAPI (~> 0.0.5)
+
+EXTERNAL SOURCES:
+  HSCore:
+    :path: ~/dev/src/talk/HSCore
+
+SPEC CHECKSUMS:
+  AFNetworking: 80c4e0652b08eb34e25b9c0ff3c82556fe5967b4
+  HSCore: 562a50eea482094e98cf435dd45505c093fe6b70
+  JLRoutes: 3400fe314fc01c861a14ff7e183d209b0cd302ae
+  NSString-UrlEncode: 9b49b5499996dad0439373683820420978731628
+  OpenWeatherMapAPI: dba532198d083cae09089adbdbaf2831a8fc0c66
+
+COCOAPODS: 0.33.1
