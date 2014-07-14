@@ -30,7 +30,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     NSLog(@"City name: %@", self.cityName);
-    
+    self.title = [NSString stringWithFormat:@"Weather: %@", self.cityName];
     [self showWeatherForCity:self.cityName];
 }
 
