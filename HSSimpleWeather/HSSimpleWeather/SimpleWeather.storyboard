@@ -48,7 +48,7 @@
         <!--Weather Details View Controller - Weather for City-->
         <scene sceneID="BuQ-op-lbv">
             <objects>
-                <viewController id="fnZ-l7-dTy" customClass="HSWeatherDetailsViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CityWeather" id="fnZ-l7-dTy" customClass="HSWeatherDetailsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GSX-6d-gwa"/>
                         <viewControllerLayoutGuide type="bottom" id="HGK-Xs-QRm"/>
@@ -110,10 +110,10 @@
             </objects>
             <point key="canvasLocation" x="538" y="83"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - City Weather-->
         <scene sceneID="3Ju-Y4-Ubi">
             <objects>
-                <navigationController definesPresentationContext="YES" id="96S-Xf-2dL" sceneMemberID="viewController">
+                <navigationController title="City Weather" definesPresentationContext="YES" id="96S-Xf-2dL" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Trh-cf-M5a">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

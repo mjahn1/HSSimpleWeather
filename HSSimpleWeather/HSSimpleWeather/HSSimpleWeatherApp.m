@@ -7,7 +7,8 @@
 //
 
 #import "HSSimpleWeatherApp.h"
-
+#import "HSWeatherDetailsViewController.h"
+#import <HSRoute.h>
 
 @implementation HSSimpleWeatherApp
 
@@ -20,7 +21,15 @@
 }
 
 + (NSArray *)routesToRegister {
-    return @[];
+    return @[
+             [HSRoute routeWithUrl:@"/weather/:cityName" andAction:^BOOL(id<HSRoutingDelegate> routingDelegate, NSString *url, NSDictionary *parameters) {
+                 HSWeatherDetailsViewController *weatherDetailController = [[UIStoryboard storyboardWithName:@"SimpleWeather" bundle:nil] instantiateViewControllerWithIdentifier:@"CityWeather"];
+                 weatherDetailController.cityName = parameters[@"cityName"];
+                 
+                 [routingDelegate shouldPushViewController:weatherDetailController];
+                 return YES;
+             }]
+             ];
 }
 
 @end

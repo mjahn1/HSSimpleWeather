@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5F83695C-D313-44E9-A00E-D3A5E3AE6B0F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HSSimpleWeather</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BE98201A-470D-42DE-A6F8-A05E1A91E71A</key>
+		<string>ssh://github.com/aroldan/HSCore.git</string>
+		<key>F8F4618E-7F1F-4434-992B-272239082701</key>
+		<string>ssh://github.com/aroldan/HSSimpleWeather.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HSSimpleWeather.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BE98201A-470D-42DE-A6F8-A05E1A91E71A</key>
+		<string>../../HSCore</string>
+		<key>F8F4618E-7F1F-4434-992B-272239082701</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/aroldan/HSSimpleWeather.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F8F4618E-7F1F-4434-992B-272239082701</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BE98201A-470D-42DE-A6F8-A05E1A91E71A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HSCore</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F8F4618E-7F1F-4434-992B-272239082701</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HSSimpleWeather</string>
+		</dict>
+	</array>
+</dict>
+</plist>
